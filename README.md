@@ -11,5 +11,7 @@ While my project does work properly there are still some things that make it use
 While the project does work properly I have not tested the image thresholding thoroughly enough to work consistently at all times during the day. In the mobile app’s current state the UI is very low quality and has room for improvement in both usability and appearance. I also was not able to figure out a way to fetch the JSON file in real-time from my raspberry pi other than running a local python file that used a while loop to consistently fetch it. This project still has no nighttime capabilities.
 ## Project in Action
 
-https://user-images.githubusercontent.com/61435118/168309507-7344ca24-9136-4005-baad-9fdb46f605cc.MP4
+https://user-images.githubusercontent.com/61435118/168310452-91a129af-8c2c-4f64-a1c1-b592d3a54fd7.mp4
+
+
 
