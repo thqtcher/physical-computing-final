@@ -1,4 +1,6 @@
 # Davidson.park
+## Project in Action
+https://user-images.githubusercontent.com/61435118/168310452-91a129af-8c2c-4f64-a1c1-b592d3a54fd7.mp4
 ## The Assignment
 To create something useful and useless at the same time.
 ## Project Description
@@ -9,9 +11,3 @@ I got the idea for this project based on a lot of complaining I had heard from m
 While my project does work properly there are still some things that make it useless. The first useless part about this project is I set it up looking over a parking lot that students aren’t allowed to park in. The next issue with the project is that depending on where the sun is the object detection code may not work exactly as expected. I found when it was dark out that the code did not work at all, but also during the day if there was a shadow inside of one of the predefined rectangles there were issues with accurately detecting a car in that space. Another problem is that the object detection part of my project works for all kinds of objects, not just cars. This means if someone were to check the app when someone was standing in one of the parking places they would see it as a taken parking place when in reality it would be available in a short amount of time. Also in my project’s current state, the only way to access the mobile portion of the app is through my laptop. 
 ## Current Bugs and Things to Improve
 While the project does work properly I have not tested the image thresholding thoroughly enough to work consistently at all times during the day. In the mobile app’s current state the UI is very low quality and has room for improvement in both usability and appearance. I also was not able to figure out a way to fetch the JSON file in real-time from my raspberry pi other than running a local python file that used a while loop to consistently fetch it. This project still has no nighttime capabilities.
-## Project in Action
-
-https://user-images.githubusercontent.com/61435118/168310452-91a129af-8c2c-4f64-a1c1-b592d3a54fd7.mp4
-
-
-
